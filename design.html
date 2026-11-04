@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Survey design · JWST Frontier Fields</title>
-<meta name="description" content="The baseline survey architecture of the JWST Frontier Fields concept and the design options under discussion in the white paper series.">
+<meta name="description" content="The reference baseline of the JWST Frontier Fields concept: four rich lensing clusters with tiered NIRCam imaging and deep NIRSpec spectroscopy, and the design options still open.">
 <meta name="robots" content="noindex">
 <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -26,22 +26,83 @@
 <div class="page-head">
   <div class="wrap">
     <h1>Survey design</h1>
-    <p>The baseline architecture and the choices still open.</p>
+    <p>The current reference baseline and the choices still open.</p>
   </div>
 </div>
 
 <main class="page-body">
   <div class="wrap">
   <div class="prose">
-    <h2>Baseline design</h2>
-    <p>The baseline couples NIRCam imaging with NIRSpec multi-object spectroscopy on each
-    cluster. A wide mosaic first covers the cluster and two flanking fields. Later epochs place
-    NIRSpec on one of the three fields while NIRCam observes another in coordinated parallel,
-    so every hour of spectroscopy also deepens the imaging. Repeated visits at alternating
-    orientations build up an ultra-deep imaging core and deep spectroscopy across all three
-    fields over several years.</p>
-    <p>The quantitative design and the figures behind it will follow after the submission of
-    the white papers.</p>
+    <p>The survey design is being finalised with the community through the white paper
+    series. The architecture below is the current reference baseline, the configuration the
+    white papers are written against, and its main parameters remain open to community
+    input.</p>
+
+    <h2>The reference baseline</h2>
+    <p>The baseline targets four rich lensing clusters with a common design of about 310
+    charged hours per cluster, roughly 1240 hours in total. Each target consists of the
+    cluster field and two flanking fields (P1 and P2), each covered by a 2&times;2 NIRCam
+    mosaic of about 25 square arcminutes. NIRSpec and NIRCam run as a coordinated pair:
+    when the micro-shutter array observes the cluster core, NIRCam lands on a flanking
+    field, and when it observes a flanking field, NIRCam returns to the cluster. After the
+    first epoch, every mosaic therefore comes with deep spectroscopy at no extra cost.</p>
+    <p>Each cluster is visited in 14 epochs over 72 months, alternating between two
+    position angles 180 degrees apart every six months. The imaging uses eight NIRCam
+    filters (F090W to F444W) and builds up in three tiers, from a wide reference layer to
+    an ultra-deep core. The spectroscopy accumulates about 202 hours of NIRSpec MSA science
+    per cluster, with 72 hours on the core, 60 and 71 hours on the two flanking fields, and
+    up to 44&ndash;55 hours per target on the deep masks.</p>
+
+    <div class="table-scroll">
+    <table class="spec">
+      <caption>The imaging tiers of the reference baseline, per cluster. Depths are
+      F200W 5&sigma; in AB magnitudes; areas are per field.</caption>
+      <thead>
+        <tr><th>Tier</th><th>Schedule</th><th>Epochs</th><th>Time</th><th>MSA</th><th>Depth and area</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Wide</td><td>first epoch</td><td>1</td><td>15 h</td><td>&ndash;</td>
+          <td>27.9 over all three fields (&approx;76 arcmin&sup2; in total), the reference
+          footprint for the MSA masks</td>
+        </tr>
+        <tr>
+          <td>Medium</td><td>months 6&ndash;24</td><td>4</td><td>104 h</td><td>64 h</td>
+          <td>29.1&ndash;29.5 on the cluster (25 arcmin&sup2;); 28.7&ndash;29.05 on the
+          flanks (18.5 arcmin&sup2; each)</td>
+        </tr>
+        <tr>
+          <td>Ultra-deep</td><td>months 24&ndash;72</td><td>9</td><td>191 h</td><td>138 h</td>
+          <td>30.5 on the core (9.3 arcmin&sup2;); 29.7&ndash;29.8 on the flanks</td>
+        </tr>
+        <tr class="sum">
+          <td>Per cluster</td><td>72 months</td><td>14</td><td>310 h</td><td>&approx;202 h</td>
+          <td>Eight NIRCam filters, three depth tiers</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <figure>
+      <img src="images/design/footprint.png" width="1606" height="1258"
+      alt="Depth map of one JFF cluster field: the cluster and two flanking fields with tiered imaging, NIRSpec MSA outlines, and magnification contours on the ultra-deep core">
+      <figcaption>The layout of one JFF cluster field, shown for one candidate cluster.
+      Left: the cluster and the two flanking fields share the tiered F200W imaging, with
+      the designed NIRSpec MSA coverage outlined. Right: the ultra-deep core, where the
+      magnification contours (&mu; = 3 and &mu; = 10 for a source at <em>z</em> = 9) sit
+      on the deepest imaging.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/design/clusters.png" width="1632" height="1385"
+      alt="Effective Einstein radius against highly magnified source-plane area for lensing clusters observed with NIRCam"
+      style="max-width: 34rem;">
+      <figcaption>Effective Einstein radius against the source-plane area magnified by more
+      than a factor of ten (both for sources at <em>z</em> = 6), for lensing clusters
+      already observed with NIRCam. The two clusters hosting the deepest existing surveys
+      (diamonds) are ordinary members of this population, and the circled clusters offer
+      more highly magnified area but have not yet hosted a comparably deep survey.</figcaption>
+    </figure>
 
     <h2>Design options</h2>
     <p>Within this architecture, several choices remain open, including the cluster sample,
@@ -55,10 +116,11 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>Maintained by the JWST Lensing Community.</p>
-    <p>Site imagery: <a href="https://esawebb.org/images/weic2209a/">Webb&rsquo;s First Deep
-    Field</a> (NIRCam), the galaxy cluster SMACS J0723.3&minus;7327.
-    Credit: NASA, ESA, CSA, and STScI.
-    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+    <p>Imagery: NASA, ESA, CSA, and STScI (<a href="https://esawebb.org/images/weic2209a/">Webb&rsquo;s
+    First Deep Field</a>; <a href="https://esawebb.org/images/weic2307a/">Wolf-Rayet 124</a> with the
+    Webb ERO Production Team; <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>),
+    NASA&rsquo;s Goddard Space Flight Center, NASA/JPL-Caltech, and NASA/Ames/STScI. Details in the
+    <a href="https://github.com/jwst-frontier-fields/jwst-frontier-fields.github.io/blob/main/images/CREDITS.md">credits file</a>.</p>
   </div>
 </footer>
 

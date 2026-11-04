@@ -1,8 +1,10 @@
 # Image credits
 
-Source imagery on this site is released by ESA/Webb (esawebb.org) under the Creative
-Commons Attribution 4.0 International license (CC BY 4.0),
-https://creativecommons.org/licenses/by/4.0/ (see https://esawebb.org/copyright/).
+ESA/Webb images are released under the Creative Commons Attribution 4.0 International
+license (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/ (see
+https://esawebb.org/copyright/). NASA imagery is generally not subject to copyright and
+is used here with the credit designated on its release page (see
+https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
 ## smacs0723-hero.jpg
 
@@ -15,12 +17,48 @@ https://creativecommons.org/licenses/by/4.0/ (see https://esawebb.org/copyright/
 - Processing: downscaled from the 4537 x 4630 px source and re-compressed as JPEG for web
   delivery. No other change.
 
-## cards/dawn.jpg, cards/stars.jpg, cards/seeds.jpg, cards/transients.jpg
+## cards/dawn.jpg
 
-- Crops of the same source image (weic2209a, see above), each resized to 1400 x 560 px
-  and re-compressed as JPEG for web delivery. No other change.
-- Credit: NASA, ESA, CSA, and STScI
+- Source page: https://svs.gsfc.nasa.gov/13511 ("Distant Galaxy Group Caught Driving
+  Ancient Cosmic Makeover", illustration of the EGS77 galaxy group ionizing bubbles in
+  the surrounding hydrogen during reionization)
+- Source file: https://svs.gsfc.nasa.gov/vis/a010000/a013500/a013511/bubbles_hi_res_still_122019.png
+  (3840 x 2160 px)
+- Credit: NASA's Goddard Space Flight Center
+- Processing: cropped to a 5:2 band and resized to 1400 x 560 px. No other change.
+
+## cards/stars.jpg
+
+- Source page: https://esawebb.org/images/weic2307a/ ("Wolf-Rayet 124 (NIRCam and MIRI
+  composite image)")
+- Source file: https://cdn.esawebb.org/archives/images/large/weic2307a.jpg (4416 x 4349 px)
+- Credit: NASA, ESA, CSA, STScI, Webb ERO Production Team
 - License: CC BY 4.0
+- Processing: cropped to a 5:2 band around the star and resized to 1400 x 560 px.
+  No other change.
+
+## cards/seeds.jpg
+
+- Source page: https://science.nasa.gov/photojournal/black-holes-monsters-in-space-artists-concept
+  (PIA16695, "Black Holes: Monsters in Space (Artist's Concept)")
+- Source file: https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia16/pia16695/PIA16695.jpg
+  (4400 x 2475 px)
+- Credit: NASA/JPL-Caltech
+- Processing: cropped to a 5:2 band and resized to 1400 x 560 px. No other change.
+
+## cards/transients.jpg
+
+- Source page: https://science.nasa.gov/photojournal/caught-a-supernova-shock-breakout-artist-concept
+  (PIA20065, "Caught: A Supernova Shock Breakout (Artist Concept)")
+- Source file: https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia20/pia20065/PIA20065.jpg
+  (1920 x 1080 px)
+- Credit: NASA/Ames/STScI
+- Processing: cropped to a 5:2 band and resized to 1400 x 560 px. No other change.
+
+## design/footprint.png, design/clusters.png
+
+Figures produced by the JFF team for the survey white paper and rendered for the web
+from the team's own files. No external credit.
 
 ## favicon.svg
 
