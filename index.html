@@ -4,89 +4,173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JWST Frontier Fields (JFF)</title>
-<meta name="description" content="JWST Frontier Fields (JFF) is a community concept for a JWST Multi-Cycle Treasury program on strong-lensing galaxy clusters. This site lists the JFF white paper series.">
+<meta name="description" content="JWST Frontier Fields (JFF) is a community concept for a JWST Multi-Cycle Treasury program on strong-lensing galaxy clusters. This site presents the concept, the survey design, and the JFF white paper series.">
 <meta name="robots" content="noindex">
 <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="hero" style="background-image:linear-gradient(to bottom, rgba(9,12,20,0.18), rgba(9,12,20,0.74)), url('images/smacs0723-hero.jpg');">
+<header class="site-head">
+  <div class="wrap nav-bar">
+    <a class="brand" href="index.html" aria-label="JWST Frontier Fields home">JFF</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="concept.html">Concept</a>
+      <a href="design.html">Survey design</a>
+      <a href="papers.html">White papers</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" style="background-image:linear-gradient(to bottom, rgba(9,12,20,0.30), rgba(9,12,20,0.74)), url('images/smacs0723-hero.jpg');">
   <div class="wrap">
     <h1>JWST Frontier Fields</h1>
     <p class="hero-sub">A community concept for a JWST Multi-Cycle Treasury program targeting strong-lensing galaxy clusters.</p>
+    <p class="hero-cta"><a href="papers.html">White paper series &rarr;</a></p>
   </div>
 </div>
 
-<main class="wrap">
+<main>
 
-<section id="concept" aria-labelledby="concept-heading">
-  <h2 id="concept-heading">Concept</h2>
-  <p>JWST Frontier Fields (JFF) is a community concept for a large JWST program on massive
-  galaxy clusters that act as gravitational lenses. Each cluster magnifies the sky behind it,
-  so deep observations through these fields reach sources intrinsically fainter than any
-  blank field delivers in the same time.</p>
-  <p>The concept follows the Hubble Frontier Fields, which paired deep imaging of six lensing
-  clusters with a broad community effort. JFF would bring that approach to JWST, with NIRCam
-  imaging and NIRSpec spectroscopy accumulated over multiple cycles.</p>
-  <p>JFF is being prepared for the JWST Multi-Cycle Treasury opportunity through a series of
-  community white papers that set out the science cases and the survey design. This page
-  lists the series, and the survey design will be posted here in more detail after the white
-  papers are submitted.</p>
+<section class="band" aria-labelledby="intro-heading">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">The concept</span>
+      <h2 id="intro-heading">Galaxy clusters as gravitational telescopes</h2>
+    </div>
+    <div class="prose">
+      <p>JWST Frontier Fields (JFF) is a community concept for a large JWST program on massive
+      galaxy clusters that act as gravitational lenses. Each cluster magnifies the sky behind it,
+      so deep observations through these fields reach sources intrinsically fainter than any
+      blank field delivers in the same time.</p>
+      <p>The approach follows the Hubble Frontier Fields and is being prepared for the JWST
+      Multi-Cycle Treasury opportunity through a series of community white papers.</p>
+      <p class="more"><a href="concept.html">More about the concept &rarr;</a></p>
+    </div>
+  </div>
 </section>
 
-<section id="design" aria-labelledby="design-heading">
-  <h2 id="design-heading">Baseline design</h2>
-  <p>The baseline couples NIRCam imaging with NIRSpec multi-object spectroscopy on each
-  cluster. A wide mosaic first covers the cluster and two flanking fields. Later epochs place
-  NIRSpec on one of the three fields while NIRCam observes another in coordinated parallel,
-  so every hour of spectroscopy also deepens the imaging. Repeated visits at alternating
-  orientations build up an ultra-deep imaging core and deep spectroscopy across all three
-  fields over several years.</p>
-  <p>The quantitative design and the figures behind it will follow after the submission of
-  the white papers.</p>
+<section class="band alt" aria-labelledby="science-heading">
+  <div class="wrap">
+    <span class="kicker">Key science</span>
+    <h2 id="science-heading">The first galaxies, stars, and black holes</h2>
+    <p class="lede">The series centers on cosmic dawn and pairs these goals with a broad legacy
+    program. Each card links to the related white papers.</p>
+    <div class="cards primary">
+      <article class="card">
+        <div class="card-media" role="img" aria-label="Distant galaxies in a deep lensed field" style="background-image:url('images/cards/dawn.jpg')"></div>
+        <div class="card-body">
+          <h3>Cosmic dawn</h3>
+          <p>Lensed deep fields extend the galaxy census into the first few hundred million
+          years and measure the faint population that drives reionization.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF II</a><a href="papers.html">JFF V</a><a href="papers.html">JFF XVI</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media" role="img" aria-label="A bright star with diffraction spikes in front of the cluster" style="background-image:url('images/cards/stars.jpg')"></div>
+        <div class="card-body">
+          <h3>The first stars</h3>
+          <p>Ultra-deep rest-UV spectroscopy and caustic transits target very massive stars
+          and the first metal-free stellar generations.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF III</a><a href="papers.html">JFF VI</a><a href="papers.html">JFF VII</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media" role="img" aria-label="Compact red sources in the deep field" style="background-image:url('images/cards/seeds.jpg')"></div>
+        <div class="card-body">
+          <h3>Black hole seeds</h3>
+          <p>Magnification brings faint growing black holes and little red dots within reach
+          of detailed spectroscopy and long-term variability monitoring.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF VIII</a><a href="papers.html">JFF IX</a><a href="papers.html">JFF X</a><a href="papers.html">JFF XXIII</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media" role="img" aria-label="Stretched arcs around the cluster core" style="background-image:url('images/cards/transients.jpg')"></div>
+        <div class="card-body">
+          <h3>The transient sky</h3>
+          <p>Repeated visits over several years catch supernovae in early galaxies and
+          stellar transients magnified near the cluster caustics.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF IV</a><a href="papers.html">JFF XI</a><a href="papers.html">JFF XIX</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <h3 class="sub-heading">A broad legacy</h3>
+    <div class="cards secondary">
+      <article class="card">
+        <div class="card-body">
+          <h3>Galaxy assembly in detail</h3>
+          <p>Magnified galaxies resolve into clumps and star clusters, tracing how early
+          galaxies build, and sometimes pause, their star formation.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF XIII</a><a href="papers.html">JFF XIV</a><a href="papers.html">JFF XV</a><a href="papers.html">JFF XVII</a><a href="papers.html">JFF XVIII</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-body">
+          <h3>Clusters, dark matter, and cosmology</h3>
+          <p>Precise cluster mass maps anchor tests of dark matter models and
+          strong-lensing cosmography.</p>
+          <div class="wp-tags">
+            <a href="papers.html">JFF XII</a><a href="papers.html">JFF XX</a><a href="papers.html">JFF XXI</a><a href="papers.html">JFF XXII</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
 </section>
 
-<section id="options" aria-labelledby="options-heading">
-  <h2 id="options-heading">Design options</h2>
-  <p>Within this architecture, several choices remain open, including the cluster sample,
-  the balance between area and depth, and the mix of instrument modes. The white papers
-  examine these options against their science cases, and the adopted design will follow
-  from that community input.</p>
+<section class="band" aria-labelledby="design-heading">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">Survey design</span>
+      <h2 id="design-heading">One architecture across cycles</h2>
+    </div>
+    <div class="prose">
+      <p>The baseline couples NIRCam imaging with NIRSpec spectroscopy on each cluster, so
+      every hour of spectroscopy also deepens the imaging. Repeated visits build an
+      ultra-deep core and deep flanking fields over several years.</p>
+      <p class="more"><a href="design.html">Baseline and design options &rarr;</a></p>
+    </div>
+  </div>
 </section>
 
-<section id="papers" aria-labelledby="papers-heading">
-  <h2 id="papers-heading">White paper series</h2>
-  <p>The concept is developed in the community white paper series listed below, in series
-  order.</p>
-  <ol class="papers">
-    <!-- JFF-PAPERS:BEGIN -->
-        <li><span class="wp-num">JFF I</span><span class="wp-title">Survey Design and Overview</span></li>
-        <li><span class="wp-num">JFF II</span><span class="wp-title">a <em>z&gt;10</em> census and the <em>z&gt;15</em> frontier</span></li>
-        <li><span class="wp-num">JFF III</span><span class="wp-title">Sharpening the view of very massive stars in galaxies at cosmic dawn with ultra-deep rest-UV spectroscopy</span></li>
-        <li><span class="wp-num">JFF IV</span><span class="wp-title">Exploring the initial metal and dust production with core-collapse supernovae in early galaxies</span></li>
-        <li><span class="wp-num">JFF V</span><span class="wp-title">The Reionizing Budget of Galaxies</span></li>
-        <li><span class="wp-num">JFF VI</span><span class="wp-title">The Search for Population III Galaxies</span></li>
-        <li><span class="wp-num">JFF VII</span><span class="wp-title">The First Stars through Stellar Caustic Transits</span></li>
-        <li><span class="wp-num">JFF VIII</span><span class="wp-title">Magnifying the Seeds — Lensed Broad-Line Emitters and the First Black Holes</span></li>
-        <li><span class="wp-num">JFF IX</span><span class="wp-title">Probing the Connection between Little Red Dots and Their Host Galaxies</span></li>
-        <li><span class="wp-num">JFF X</span><span class="wp-title">Supermassive Stars or Black Holes? The Chemistry of Faint Little Red Dots</span></li>
-        <li><span class="wp-num">JFF XI</span><span class="wp-title">A New Lens on the High-Redshift Transient Universe</span></li>
-        <li><span class="wp-num">JFF XII</span><span class="wp-title">Cluster mass mapping and cluster science</span></li>
-        <li><span class="wp-num">JFF XIII</span><span class="wp-title">The Physical Origins and Evolution of Clumpy Structures in Early Galaxies</span></li>
-        <li><span class="wp-num">JFF XIV</span><span class="wp-title">Reaching for the first star clusters</span></li>
-        <li><span class="wp-num">JFF XV</span><span class="wp-title">Enabling Breakthrough Investigations of Star-Clusters up to EoR with the ELT</span></li>
-        <li><span class="wp-num">JFF XVI</span><span class="wp-title">Deep Lensed MIRI Imaging of Cosmic Dawn</span></li>
-        <li><span class="wp-num">JFF XVII</span><span class="wp-title">The legacy benefits of spatially resolved galaxy assembly studies at intermediate-to-high <em>z</em></span></li>
-        <li><span class="wp-num">JFF XVIII</span><span class="wp-title">Unveiling the origins of quenching and constraining the lull-phase of stochastic star formation</span></li>
-        <li><span class="wp-num">JFF XIX</span><span class="wp-title">Lensed Star Transients and Dark Matter</span></li>
-        <li><span class="wp-num">JFF XX</span><span class="wp-title">Testing Wave Dark Matter with Flux-ratio Anomalies in Lensed Knots</span></li>
-        <li><span class="wp-num">JFF XXI</span><span class="wp-title">Measuring Dark Matter Properties with Merging Clusters</span></li>
-        <li><span class="wp-num">JFF XXII</span><span class="wp-title">Dark Energy with Strong-Lensing Cosmography</span></li>
-        <li><span class="wp-num">JFF XXIII</span><span class="wp-title">Variability and Time Delays of Multiply Imaged AGN and Little Red Dots</span></li>
-    <!-- JFF-PAPERS:END -->
-  </ol>
-  <p class="note">Titles are provisional until the series is submitted.</p>
+<section class="band dark" aria-labelledby="lens-heading">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">Community activity</span>
+      <h2 id="lens-heading">Lens modelling challenge</h2>
+    </div>
+    <div class="prose">
+      <p>Accurate magnification maps underpin every JFF science case. The community is
+      preparing a coordinated lens modelling challenge for 2027, comparing independent
+      mass reconstructions of the JFF clusters. Plans will be posted here as they take
+      shape.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="papers-heading">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">White papers</span>
+      <h2 id="papers-heading">The JFF series</h2>
+    </div>
+    <div class="prose">
+      <p>The science cases and the survey design are set out in a numbered series of
+      community white papers, JFF I through JFF XXIII.</p>
+      <p class="more"><a href="papers.html">View the series &rarr;</a></p>
+    </div>
+  </div>
 </section>
 
 </main>
@@ -94,8 +178,8 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>Maintained by the JWST Lensing Community.</p>
-    <p>Background image: <a href="https://esawebb.org/images/weic2209a/">Webb&rsquo;s First Deep
-    Field</a> (NIRCam), the galaxy cluster SMACS J0723.3&minus;7327.
+    <p>Background and card images: <a href="https://esawebb.org/images/weic2209a/">Webb&rsquo;s First
+    Deep Field</a> (NIRCam), the galaxy cluster SMACS J0723.3&minus;7327.
     Credit: NASA, ESA, CSA, and STScI.
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
   </div>

@@ -15,6 +15,13 @@ https://creativecommons.org/licenses/by/4.0/ (see https://esawebb.org/copyright/
 - Processing: downscaled from the 4537 x 4630 px source and re-compressed as JPEG for web
   delivery. No other change.
 
+## cards/dawn.jpg, cards/stars.jpg, cards/seeds.jpg, cards/transients.jpg
+
+- Crops of the same source image (weic2209a, see above), each resized to 1400 x 560 px
+  and re-compressed as JPEG for web delivery. No other change.
+- Credit: NASA, ESA, CSA, and STScI
+- License: CC BY 4.0
+
 ## favicon.svg
 
 A hand-drawn vector mark (a point source with two lensing arcs). Not derived from any
