@@ -37,7 +37,10 @@ a:hover { text-decoration: underline; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; padding-top: 1.05rem; padding-bottom: 1.05rem;
 }
-.brand { font-weight: 700; letter-spacing: .16em; color: #fff; font-size: .95rem; }
+.brand {
+  font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: #fff; font-size: .84rem; white-space: nowrap;
+}
 .brand:hover { text-decoration: none; }
 nav.site-nav { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: flex-end; }
 nav.site-nav a { color: rgba(255,255,255,.82); font-size: .88rem; letter-spacing: .02em; }
@@ -201,6 +204,7 @@ figcaption { color: var(--muted); font-size: .84rem; line-height: 1.55; margin-t
   .hero { min-height: min(68vh, 560px); }
 }
 @media (max-width: 620px) {
+  .brand { font-size: .72rem; letter-spacing: .09em; }
   nav.site-nav { gap: .95rem; }
   nav.site-nav a { font-size: .8rem; }
   .papers li { grid-template-columns: 4.2rem 1fr; gap: .7rem; }
