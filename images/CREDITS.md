@@ -48,11 +48,11 @@ https://www.nasa.gov/nasa-brand-center/images-and-media/).
 
 ## cards/transients.jpg
 
-- Source page: https://svs.gsfc.nasa.gov/20413/ ("Supernova explosion animation", a still
-  of the expanding supernova debris)
-- Source file: https://svs.gsfc.nasa.gov/vis/a020000/a020400/a020413/SN_8K_NoPulse_V001_Still_00000.png
-  (7680 x 4320 px)
-- Credit: NASA's Goddard Space Flight Center Conceptual Image Lab
+- Source page: https://svs.gsfc.nasa.gov/12949/ ("Star Collision", a still of the
+  high-energy jets launched by a neutron star merger)
+- Source file: https://svs.gsfc.nasa.gov/vis/a010000/a012900/a012949/NeutronStarMerger_Shot1_4KStill4_v01.png
+  (3840 x 2160 px)
+- Credit: NASA's Goddard Space Flight Center/CI Lab
 - Processing: cropped to a 5:2 band and resized to 1400 x 560 px. No other change.
 
 ## design/footprint.png, design/clusters.png
