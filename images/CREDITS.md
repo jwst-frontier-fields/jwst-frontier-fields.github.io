@@ -60,8 +60,14 @@ https://www.nasa.gov/nasa-brand-center/images-and-media/).
 Figures produced by the JFF team for the survey white paper and rendered for the web
 from the team's own files. No external credit.
 
-## favicon.svg, favicon.ico, apple-touch-icon.png
+## favicon.svg, favicon.ico
 
-A plain JFF lettermark drawn as vector paths, with raster copies for the browser
-tab and the home screen. Not derived from any image or font, so it carries no
-external credit.
+A plain JFF lettermark drawn as vector paths, with a raster copy for the browser
+tab. Not derived from any image or font, so it carries no external credit.
+
+## apple-touch-icon.png
+
+- A crop of the same source image as the hero (weic2209a, see above) around a lensed
+  arc, resized to 180 x 180 px for the home-screen icon. No other change.
+- Credit: NASA, ESA, CSA, and STScI
+- License: CC BY 4.0
