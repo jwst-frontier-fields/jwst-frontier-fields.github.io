@@ -60,7 +60,8 @@ https://www.nasa.gov/nasa-brand-center/images-and-media/).
 Figures produced by the JFF team for the survey white paper and rendered for the web
 from the team's own files. No external credit.
 
-## favicon.svg
+## favicon.svg, favicon.ico, apple-touch-icon.png
 
-A hand-drawn vector mark (a point source with two lensing arcs). Not derived from any
-observatory image, so it carries no external credit.
+A plain JFF lettermark drawn as vector paths, with raster copies for the browser
+tab and the home screen. Not derived from any image or font, so it carries no
+external credit.
